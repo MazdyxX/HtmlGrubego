@@ -1,0 +1,39 @@
+html {
+    font-family: 'Hammersmith One', sans-serif;
+    letter-spacing: 2px;
+   
+  }
+  body{
+      overflow: hidden;
+      background:url("http://www.xsjjys.com/data/out/285/WHDQ-514176901.jpg");
+  }
+
+
+.carousel{
+    margin-top: 2% !important;
+  width:50% !important;
+    height:80% !important;
+margin-left:25% !important;
+}
+.carousel-item{
+    
+    width:70% !important;
+    height:93% !important;
+    background-color: lightsteelblue !important;
+}
+img{
+    margin-top:12% !important;
+    width:70% !important;
+    height:60% !important;
+    border-radius:5% !important;
+}
+nav{
+    background-color: #F07830 !important;
+}
+p{
+    margin-top:5% !important;
+    font-size:200% !important;
+}
+
+
+

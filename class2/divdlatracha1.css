@@ -1,0 +1,64 @@
+html {
+    font-family: 'Hammersmith One', sans-serif;
+    letter-spacing: 2px;
+   
+  }
+.name{
+    font-size:120%;
+    display:inline-block;
+  
+    margin-top:1.75%;
+    color:white;
+   
+}
+.points{
+    font-size:100%;
+
+    display:inline-block ;
+    color:white;
+    margin-bottom:-5% !important;
+    margin-top:7.5%;
+    margin-left:1%;
+}
+.number{
+    font-size:100%;
+
+    display:inline;
+    color:white;
+    margin-left:20%;
+    
+}
+.rowpoints{
+    width:100% !important;
+   
+    background-color:#0375b4;
+margin-top:0.5% !important;
+padding-top:0.5% !important;
+padding-bottom:0.5% !important;
+
+}
+
+.plus{
+background-color:#007849 !important;
+display:inline-block !important;
+padding:13% !important;
+padding-top:0% !important;
+margin-left:5%;
+}
+.minus{
+background-color:#AD1111 !important;
+display:inline-block !important;
+padding:13.5% !important;
+padding-bottom:2% !important;
+padding-top:0% !important;
+font-size:150% !important;
+margin-right:5%;
+}
+.plusminusmargin{
+    margin-top:-0.15% !important;
+}
+.marginbetween{
+    margin-top:2% !important;
+    width:100px !important;
+   
+}

@@ -1,0 +1,84 @@
+.col{
+    padding-left:0% !important;
+    padding-right:0% !important;
+ }
+ body{
+    background-color:#FFFFFF !important;
+ }
+ .row{
+    margin-bottom:0% !important;
+ 
+ }
+ 
+ .classcol1{
+    padding:0% !important;
+    padding-left:0.3% !important;
+    padding-right:1% !important;
+    font-size:250% !important;
+    color:white;
+    background-color:#F07830;
+    text-align: center;
+ }
+ .classcol2{
+    padding:0% !important;
+    border-right:2px dashed;
+    border-right-color:#4878A8;
+    height:100% !important;
+ }
+ .studentscol1{
+    padding:0% !important;
+    font-size:250% !important;
+    padding-left:0.5% !important;
+    padding-right:0.5% !important;
+    padding-left:15% !important;
+    text-align: center;
+    margin-left:0.5%;
+    color:black;
+ }
+ .studentscol2{
+    padding:0% !important;
+    height:100% !important;
+    padding-left:0.5% !important;
+    padding-right:0.5% !important;
+    margin-top:0.1% !important;
+ }
+ .classbtn{
+    width:100% !important;
+    margin-top:1% !important;
+    background-color:#F07830 !important;
+ }
+ .plus{
+    background-color:#007849 !important;
+    display:inline-block !important;
+    padding:13% !important;
+    padding-top:0% !important;
+    margin-left:5%;
+    }
+    .minus{
+    background-color:#AD1111 !important;
+    display:inline-block !important;
+    padding:13.5% !important;
+    padding-bottom:2% !important;
+    padding-top:0% !important;
+    font-size:150% !important;
+    margin-right:5%;
+    }
+ .rowborder{
+    border:1px solid black;
+ }
+ .labelcol{
+    padding-top:0.9% !important;
+    padding-bottom:0.9% !important;
+    background-color:#4878A8;
+ }
+ .pointscol{
+    padding-top:1% !important;
+    padding-bottom:1% !important;
+ }
+ .buttoncol{
+    padding-top:0.3% !important;
+    padding-bottom:0.3% !important;
+ 
+ }
+ 
+ 

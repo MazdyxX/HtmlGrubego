@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Documentation - Materialize</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="achievements.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  </head>
+  <body>
+    
+  <nav>
+      <div class="nav-wrapper">
+        <a class="brand-logo center">Osiągnięcia</a>
+      </div>
+    </nav>
+ 
+          <div class="carousel center" data-indicators="true">
+                <div class="carousel-item white-text">
+                  <img src="sportshallb.png"/>
+                  <p class="white-text">Rozwiń halę sportową do poziomu 3!</p>
+                </div>
+                <div class="carousel-item  white-text" >
+                  <img src="sportshalls.png"/>
+                  <p class="white-text">Rozwiń halę sportową do poziomu 5!</p>
+                </div>
+                <div class="carousel-item  white-text" >
+                  <img src="sportshallg.png"/>
+                  <p class="white-text">Rozwiń halę sportową do poziomu 10!</p>
+                </div>
+                <div class="carousel-item white-text" >
+                  <h2>Fourth Panel</h2>
+                  <p class="white-text">This is your fourth panel</p>
+            </div>
+   
+ 
+  
+
+
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+    <script type="text/javascript">
+    $( document ).ready(function() {
+      $('.collapsible').collapsible({
+        onOpen: function(el) {
+          console.log("OPEN", el);
+          var carousel = el.find('.carousel');
+          if (carousel.length) {
+            carousel.trigger('carouselNext', [0.000001]);
+          }
+        },
+        onClose: function(el) {
+          console.log("CLOSE", el);
+        }
+      });
+      $('ul.tabs').tabs({
+        onShow: function(tab) {
+          $('.carousel.carousel-slider').carousel({fullWidth : true});
+        }
+      });
+      $('.carousel.carousel-slider').carousel({fullWidth : true});
+      $('.carousel').carousel();
+    });
+    </script>
+  </body>
+</html>
